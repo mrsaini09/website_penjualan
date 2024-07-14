@@ -1,0 +1,161 @@
+.body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+h2,
+h3 {
+  color: rgb(241, 30, 30);
+}
+
+footer {
+  background-color: rgb(240, 117, 203);
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+.gambar-artikel {
+  width: 300px;
+  max-height: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+.gambar-dokum {
+  width: 200px;
+}
+.main {
+  padding: 20px;
+}
+.card {
+  box-shadow: 0px 4px 8px rgba(247, 28, 141, 0.795);
+  padding: 10px;
+  border-radius: 60px;
+  margin-top: 20px;
+}
+.jumbotron {
+  background-color: rgb(241, 122, 172);
+  color: rgb(253, 250, 250);
+  text-align: center;
+  padding: 60px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header {
+  display: inline;
+}
+nav {
+  background-color: rgb(240, 130, 185);
+}
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+nav ul li a {
+  color: rgb(2, 2, 2);
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-weight: bold;
+}
+html {
+  scroll-behavior: smooth;
+}
+main {
+  display: flex;
+  gap: 25px;
+}
+main #content {
+  flex-grow: 5;
+}
+main aside {
+  flex-grow: 1;
+  gap: 20px;
+  box-shadow: 0px 4px 8px rgb(238, 25, 185);
+  border-radius: 50px;
+}
+/*untuk hp*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    text-align: center;
+  }
+  .jumbotron {
+    font-size: 18px;
+  }
+  nav ul li a {
+    font-size: 14px;
+  }
+  nav ul li {
+    margin-right: 10px;
+  }
+  aside {
+    text-align: center;
+    color: rgba(3, 3, 3, 0.979);
+  }
+}
+/*untuk tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    text-align: center;
+  }
+
+  aside {
+    text-align: center;
+  }
+}
+/* Style the section containing the table */
+section {
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* Style the table headers */
+th {
+  background-color: #e0f7fa;
+  color: #00796b;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Style the table cells */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add alternating row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add hover effect on table rows */
+tr:hover {
+  background-color: #f1f1f1;
+}
+h1,
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
